@@ -31,7 +31,8 @@ class Console {
 
             // コンソール出力
             const { delay } = timeParser(obj);
-            console.log(`${boostModeFlag ? '\u001b[31m[boost]' : ''}${consoleColors[_toggle]}{ id: ${obj.id} , get: '${getType}', name: "${obj.name}", delay: "${delay}s" }\u001b[0m`);
+            const now = new Date();
+            console.log(`${now.getHours()}:${now.getMinutes()}:${now.getSeconds()} ${boostModeFlag ? '\u001b[31m[boost]' : ''}${consoleColors[_toggle]}{ id: ${obj.id} , get: '${getType}', name: "${obj.name}", delay: "${delay}s" }\u001b[0m`);
 
             // 音を鳴らす
             if (isSound) sound(0.005, osPlatform);
