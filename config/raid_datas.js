@@ -13,7 +13,7 @@ module.exports = {
      * highSpeed: 平常時2.1秒間隔、ブースト時2.1秒間隔
      * accelerate: 平常時10秒間隔、ブースト時0.5秒間隔
     */
-    boostLevel: 'normal',
+    boostLevel: 'highSpeed',
     
     /* ------------------------------------------ */
     /* マルチボスごとのトラッキングの有無を設定する */
@@ -102,7 +102,7 @@ module.exports = {
         "ル・オーHL": { ja: "ル・オー", en: "Lu Woh", lv:"200" },
         "フェディエルHL": { ja: "フェディエル", en: "Fediel", lv:"200" },
         "アーカーシャHL": { ja: "アーカーシャ", en: "Akasha", lv:"200" },
-        "グランデHL": { ja: "グランデ", en: "Grand", lv:"200" },
+        "グランデHL": { ja: "ジ・オーダー・グランデ", en: "Grand", lv:"200" },
         "フロネシスHL": { ja: "フロネシス", en: "Phronesis", lv:"150" },
         "ルシファー": { ja: "ルシファー", en: "Lucilius", lv:"150" },
         "ティアマト・マリスHL": { ja: "ティアマト", en: "Tiamat", lv:"150" },
@@ -115,7 +115,7 @@ module.exports = {
         "メタトロンHL": { ja: "メタトロン", en: "Metatron", lv:"120" },
         "アバターHL": { ja: "アバター", en: "Avatar", lv:"120" },
         "プロトバハムート": { ja: "プロトバハムート", en: "Proto", lv:"100" },
-        "ジ・オーダー・グランデ": { ja: "グランデ", en: "Order", lv:"100" },
+        "ジ・オーダー・グランデ": { ja: "ジ・オーダー・グランデ", en: "Order", lv:"100" },
         "アルティメットバハムート": { ja: "アルティメット", en: "Ultimate", lv:"150" },
         "ティアマト・マグナ": { ja: "ティアマト", en: "Tiamat", lv:"50" },
         "コロッサス・マグナ": { ja: "コロッサス", en: "Colossus", lv:"70" },
